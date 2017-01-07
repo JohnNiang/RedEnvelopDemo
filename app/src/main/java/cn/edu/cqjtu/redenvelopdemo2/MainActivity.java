@@ -24,6 +24,7 @@ public class MainActivity extends Activity {
 
     private void open() {
         try {
+
             Intent intent = new Intent(android.provider.Settings.ACTION_ACCESSIBILITY_SETTINGS);
             startActivity(intent);
             Toast.makeText(this, "找到“抢红包外挂”，然后开启服务即可", Toast.LENGTH_LONG).show();
